@@ -1,0 +1,29 @@
+Source: evolution-data-server-pantheon-online-accounts
+Section: admin
+Priority: optional
+Maintainer: Corentin "tintou" Noël <tintou@mailoo.org>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 9),
+               libebackend1.2-dev (>= 3.10),
+               libecal1.2-dev (>= 3.10),
+               libglib2.0-dev (>= 2.26.0),
+               libgee-0.8-dev (>= 0.5.3),
+               libaccounts-glib-dev,
+               libgsignon-glib-dev,
+               libjson-glib-dev,
+               librest-dev (>= 0.7),
+               valac (>= 0.22) | valac-0.22
+Standards-Version: 3.9.5
+Homepage: https://launchpad.net/poa-eds-bridge
+Vcs-Bzr: lp:poa-eds-bridge
+Vcs-Browser: http://bazaar.launchpad.net/~elementary-apps/poa-eds-bridge/trunk/files
+
+Package: evolution-data-server-pantheon-online-accounts
+Architecture: any
+Depends: evolution-data-server,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Enhances: switchboard-plug-online-accounts
+Pre-Depends: dpkg (>= 1.15.6)
+Description: Pantheon Online Accounts module for Evolution Data Server
+ This module automatically connects your online accounts.
