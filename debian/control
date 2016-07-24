@@ -13,6 +13,7 @@ Build-Depends: cmake (>= 2.8),
                libjson-glib-dev,
                librest-dev (>= 0.7),
                valac (>= 0.22) | valac-0.22
+Conflicts: evolution-data-server-online-accounts
 Standards-Version: 3.9.5
 Homepage: https://launchpad.net/poa-eds-bridge
 Vcs-Bzr: lp:poa-eds-bridge
