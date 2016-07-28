@@ -12,9 +12,7 @@ Build-Depends: cmake (>= 2.8),
                libgsignon-glib-dev,
                libjson-glib-dev,
                librest-dev (>= 0.7),
-               valac (>= 0.22) | valac-0.22
-Conflicts: evolution-data-server-online-accounts
-Replaces: evolution-data-server-online-accounts
+               valac (>= 0.22)
 Standards-Version: 3.9.5
 Homepage: https://launchpad.net/poa-eds-bridge
 Vcs-Bzr: lp:poa-eds-bridge
@@ -25,6 +23,9 @@ Architecture: any
 Depends: evolution-data-server,
          ${misc:Depends},
          ${shlibs:Depends}
+Conflicts: evolution-data-server-online-accounts
+Replaces: evolution-data-server-online-accounts
+Provides: evolution-data-server-online-accounts
 Enhances: switchboard-plug-online-accounts
 Pre-Depends: dpkg (>= 1.15.6)
 Description: Pantheon Online Accounts module for Evolution Data Server
