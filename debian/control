@@ -3,6 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: Corentin "tintou" Noël <tintou@mailoo.org>
 Build-Depends: cmake (>= 2.8),
+               cmake-elementary,
                debhelper (>= 9),
                libebackend1.2-dev (>= 3.10),
                libecal1.2-dev (>= 3.10),
