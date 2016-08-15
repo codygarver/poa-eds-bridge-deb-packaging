@@ -1,5 +1,5 @@
-evolution-data-server-pantheon-online-accounts (0.1.0) UNRELEASED; urgency=low
+evolution-data-server-pantheon-online-accounts (0.1.0) xenial; urgency=low
 
   * Initial Release.
 
- -- Corentin "tintou" Noël <tintou@mailoo.org>  Wed, 3 Sep 2014 16:52:00 +0100
+ -- Cody Garver <cody@elementary.io>  Mon, 15 Aug 2016 11:26:24 -0500
